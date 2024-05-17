@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Mono", monospace;
+
+  background-color: #93b7f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.container {
+  background-color: #b3e2ff;
+  border-radius: 5px;
+  height: 500px;
+  transition: all 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+.select {
+  color: white;
+  padding: 50px;
+}
+h3 {
+  border-bottom: 4px solid white;
+  border-top: 4px solid transparent;
+  cursor: pointer;
+}
+.card {
+  height: 100px;
+  padding: 10px;
+  display: flex;
+  gap: 13px;
+  height: 200px;
+  margin-bottom: 110px;
+}
+.card1 {
+  cursor: pointer;
+  background-color: #93b7f6;
+  border-radius: 3px;
+  width: 50%;
+}
+.card1:hover,
+h3:hover,
+.card2:hover {
+  border-top: 4px solid violet;
+  transition: all 0.2s;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 2px 0px;
+}
+.card2:hover {
+  border-top: 4px solid violet;
+}
+.card2 {
+  cursor: pointer;
+  background-color: white;
+  border-radius: 3px;
+
+  width: 50%;
+}
+button {
+  font-weight: bold;
+  border-radius: 2px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  border: none;
+  padding: 13px;
+  cursor: pointer;
+  width: 90%;
+  background-color: violet;
+  /* transform: all 5s; */
+}
+button:hover {
+  opacity: 0.9;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
